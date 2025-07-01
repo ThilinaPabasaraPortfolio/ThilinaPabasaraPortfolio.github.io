@@ -24,7 +24,7 @@ $(document).ready(function(){
 					scrollTop: targetElement.offset().top - 80 // 80px offset for better positioning
 				}, 800, 'swing');
 			}
-		} else if(target === 'MyPortfolio.html') {
+		} else if(target === 'index.html') {
     // Handle home link with smooth transition
     $('.page-transition').addClass('active');
     setTimeout(function() {
