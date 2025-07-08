@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Contact Thilina Pabasara - Professional 3D Artist & Multimedia Designer. Get in touch for 3D modeling, video editing, and graphic design services." />
+  <title>Contact - Thilina Pabasara</title>
+  <link rel="icon" type="image/x-icon" href="../Portfolio/favicon.ico" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="../Portfolio/css/contact.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Orbitron:wght@500;700&family=VT323&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+    <!-- Page transition overlay -->
+    <div class="page-transition">
+        <div class="transition-loader"></div>
+    </div>
+    
+    <header>
+        <div class="menu-toggler">
+            <div class="bar half start"></div>
+            <div class="bar"></div>
+            <div class="bar half end"></div>
+        </div>
+        <nav class="top-nav">
+            <ul class="nav-list">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="3DModeling.html" class="nav-link">3D Modeling</a></li>
+                <li><a href="Vediting.html" class="nav-link">Video Editing</a></li>
+                <li><a href="Gdesign.html" class="nav-link">Graphic Design</a></li>
+                <li><a href="#project-inquiry" class="nav-link">Project Inquiry</a></li>
+            </ul>
+        </nav>
+        <div class="landing-text">
+            <h1>Contact</h1>
+            <h6>Let's Create Something Amazing Together</h6>
+        </div>
+    </header>
+
+    <!-- Contact Info Section -->
+    <section class="contact-info-section" id="contact-info">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Get in Touch</h1>
+                <h6>Multiple ways to reach me</h6>
+            </div>
+            <div class="contact-methods">
+                <div class="contact-method" data-aos="fade-up" data-aos-delay="200">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3>Phone</h3>
+                    <p><a href="tel:+94703740882">070 374 0882</a></p>
+                    <span class="availability">Available 9 AM - 6 PM (GMT+5:30)</span>
+                </div>
+                <div class="contact-method" data-aos="fade-up" data-aos-delay="400">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email</h3>
+                    <p><a href="mailto:h.h.t.p.rathnayaka@gmail.com">h.h.t.p.rathnayaka@gmail.com</a></p>
+                    <span class="availability">Response within 24 hours</span>
+                </div>
+                <div class="contact-method" data-aos="fade-up" data-aos-delay="600">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Location</h3>
+                    <p><a href="https://maps.app.goo.gl/XC1HMePUFNWyZ2rj6" target="_blank" rel="noopener noreferrer">Avissawella, Sri Lanka</a></p>
+                    <span class="availability">GMT+5:30 Timezone</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Contact Form -->
+    <section class="contact-form-section" id="contact-form">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Project Inquiry</h1>
+                <h6>Tell me about your vision</h6>
+            </div>
+            <div class="form-container">
+                <form id="contactForm" data-aos="fade-up" data-aos-delay="300">
+                    <div class="form-success" id="formSuccess">
+                        <i class="fas fa-check-circle"></i>
+                        <h3>Message Sent Successfully!</h3>
+                        <p>Thank you for reaching out. I'll get back to you within 24 hours.</p>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="name">Your Name *</label>
+                        <input type="text" id="name" name="name" required>
+                        <div class="error-message"></div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Your Email *</label>
+                        <input type="email" id="email" name="email" required>
+                        <div class="error-message"></div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone">
+                        <div class="error-message"></div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="service">Service Needed *</label>
+                        <select id="service" name="service" required>
+                            <option value="">Select a service</option>
+                            <option value="3d-modeling">3D Modeling</option>
+                            <option value="video-editing">Video Editing</option>
+                            <option value="graphic-design">Graphic Design</option>
+                            <option value="photo-manipulation">Custom Service</option>
+                        </select>
+                        <div class="error-message"></div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="budget">Budget Range</label>
+                        <select id="budget" name="budget">
+                            <option value="">Select budget range</option>
+                            <option value="under-500">Under $100</option>
+                            <option value="100-500">$100 - $500</option>
+                            <option value="500-1000">$500 - $1,000</option>
+                            <option value="10000-3000">$1,000 - $3,000</option>
+                            <option value="3000-plus">$3,000+</option>
+                            <option value="discuss">Let's discuss</option>
+                        </select>
+                        <div class="error-message"></div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="timeline">Project Timeline</label>
+                        <select id="timeline" name="timeline">
+                            <option value="">Select timeline</option>
+                            <option value="rush">Rush (1-3 days)</option>
+                            <option value="standard">Standard (1-2 weeks)</option>
+                            <option value="extended">Extended (2-4 weeks)</option>
+                            <option value="flexible">Flexible</option>
+                        </select>
+                        <div class="error-message"></div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Project Details *</label>
+                        <textarea id="message" name="message" rows="6" required placeholder="Please describe your project in detail. Include any specific requirements, style preferences, or reference materials you'd like me to know about."></textarea>
+                        <div class="error-message"></div>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">
+                        <span class="btn-text">Send Message</span>
+                        <div class="btn-loader"></div>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media -->
+    <section class="social-section" id="social">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Follow My Work</h1>
+                <h6>Stay connected</h6>
+            </div>
+            <div class="social-links">
+                <a href="https://web.facebook.com/thilinapabasara" target="_blank" rel="noopener" class="social-link" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fab fa-facebook"></i>
+                    <span>Facebook</span>
+                </a>
+                <a href="https://www.instagram.com/thealucard47" target="_blank" rel="noopener" class="social-link" data-aos="fade-up" data-aos-delay="400">
+                    <i class="fab fa-instagram"></i>
+                    <span>Instagram</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section" id="faq">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Frequently Asked Questions</h1>
+                <h6>Common questions about my services</h6>
+            </div>
+            <div class="faq-container">
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="faq-question">
+                        <h3>What is your typical turnaround time?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Turnaround time depends on the complexity and scope of the project. Simple graphic designs can be completed in 1-3 days, while complex 3D modeling projects may take 1-2 weeks. Rush services are available for urgent projects.</p>
+                    </div>
+                </div>
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="faq-question">
+                        <h3>Do you provide revisions?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, I include 2-3 rounds of revisions with every project to ensure you're completely satisfied with the final result. Additional revisions can be arranged if needed.</p>
+                    </div>
+                </div>
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
+                    <div class="faq-question">
+                        <h3>What file formats do you deliver?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>I deliver files in industry-standard formats based on your needs: AI, EPS, PDF, PNG, JPG for graphics; MP4, MOV, AVI for videos; OBJ, FBX, BLEND for 3D models. Source files are included when requested.</p>
+                    </div>
+                </div>
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="500">
+                    <div class="faq-question">
+                        <h3>How do you handle payments?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>I typically work with a 50% upfront payment and 50% upon completion. For larger projects, milestone-based payments can be arranged. I accept bank transfers and popular digital payment methods.</p>
+                    </div>
+                </div>
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="600">
+                    <div class="faq-question">
+                        <h3>Can you work with my existing brand guidelines?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutely! I can work within your existing brand guidelines and style requirements. Just share your brand book, color palettes, and any specific requirements during our initial consultation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="copyright">
+        <div class="up" id="up">
+            <i class="fas fa-chevron-up"></i>
+            <p>&copy; 2025 Thilina Pabasara</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/contact.js"></script>
+    <script>AOS.init();</script>
+</body>
+</html>
